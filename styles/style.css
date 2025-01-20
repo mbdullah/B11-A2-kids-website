@@ -20,6 +20,28 @@
     color: #000000;
 }
 
+.secondary-text{
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #202020;
+    margin-top: 36px;
+}
+
+.third-text{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #808080;
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+
+.standard-content{
+    text-align: center;
+    padding: 60px 45px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
 /* header style start */
 
 /* nav style */
@@ -127,20 +149,64 @@ nav{
 
 .standard{
     height: 80vh;
-    border: 2px solid red;
     background-image: url(../assets/bg.png);
 }
 .standard-title{
     max-width: 490px;
-    margin: 60px auto;
+    margin: 0px auto;
+    margin-top: 130px;
 }
 .standard-container{
     max-width: 1460px;
     margin:50px auto;
-    border: 2px solid green;
     height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+.standard-description1{
+    border: 1px solid rgba(213, 241, 255, 0.432);
+    background: linear-gradient(
+        360deg,
+        rgb(255, 255, 255) 60.5%,
+        rgb(213, 241, 255)100%
+        )
+}
+.standard-description2{
+    border: 1px solid rgba(243, 236, 199, 0.445);
+    background: linear-gradient(
+        360deg,
+        rgb(255, 255, 255) 60.5%,
+        rgb(243, 236, 199)100%
+        )
 }
 
+.standard-description3{
+    border: 1px solid rgba(232, 221, 250, 0.425);
+    background: linear-gradient(
+        360deg,
+        rgb(255, 255, 255) 60.5%,
+        rgb(229, 213, 255)100%
+        )
+}
+.standard-content>.read-more1{
+    color: #64C8FF;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+.standard-content>.read-more2{
+    color: #F0AA00;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;   
+}
+.standard-content>.read-more3{
+    color: #8700FF;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;   
+}
 
 /* footer style start */
 
