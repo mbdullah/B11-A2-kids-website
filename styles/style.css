@@ -14,6 +14,9 @@
 }
 
 /* shared style start */
+body{
+    margin: 30px;
+}
 .primary-text{
     font-size: 3rem;
     font-weight: 700;
@@ -265,5 +268,9 @@ nav{
     .standard-container{
         grid-template-columns: repeat(1, 1fr);
         margin-top: 5px;
+    }
+
+    .arrow-image-container{
+        display: none;
     }
 }
