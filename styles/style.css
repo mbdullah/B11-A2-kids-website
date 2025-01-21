@@ -344,7 +344,6 @@ nav{
     max-width: 1400px;
     margin: 100px auto;
     justify-content: space-between;
-    /* align-items: center; */
 }
 .footer-content1{
     max-width: 400px;
@@ -463,6 +462,18 @@ nav{
     .our-stories-container{
         height: 100%;
         padding-bottom: 30px;
+   }
+    .footer-section{
+        height: 100%;
+       
+    }
+   .footer-container{
+    flex-direction: column;
+    margin: 60px 30px;
+   }
+   .footer-content2{
+    margin-top: 35px;
+    margin-bottom: 35px;
    }
         
    
