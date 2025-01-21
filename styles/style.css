@@ -14,9 +14,6 @@
 }
 
 /* shared style start */
-body{
-    margin: 30px;
-}
 .primary-text{
     font-size: 3rem;
     font-weight: 700;
@@ -43,6 +40,12 @@ body{
     padding: 60px 45px;
     border-radius: 20px;
     margin-top: 30px;
+}
+
+.fourth-text{
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #000000;
 }
 
 /* header style start */
@@ -218,6 +221,113 @@ nav{
     width: 80px;
     height: 80px;
 }
+
+/* our stories section style start */
+.our-stories{   
+    margin-top: 80px;
+    background: linear-gradient(
+        180deg,
+        rgb(255, 255, 255) 2.5%,
+        rgba(231, 189, 99, 0.808)100%
+        )     
+}   
+
+.our-stories-container{
+    height: 1000px;
+    background-image: url(../assets/bg.png);
+}
+.our-stories-container .my-stories{
+    text-align: center;
+    justify-content: center;
+}
+.card-container{
+    display: flex;
+    max-width: 1400px;
+    margin: 50px auto;
+    gap: 20px;
+    
+}
+.card-content2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.card-content2>.card-content-description>img{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+.card-content2>.card-content-description>.november2>button{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #95B226;
+    border-radius: 45px;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 22px;
+}
+.card-content2>.card-content-description>.november2{
+    padding: 0px 40px 30px 50px;
+}
+.card-content1{
+    background-color: #FFFFFF;
+    max-width: 540px;
+    border-radius: 16px;
+}
+.card-content1>img{
+    width: 100%;
+    height: 450px;
+    background-size: contain;
+    border-radius: 16px 16px 0px 0px;
+}
+.card-content1 .november1{
+    padding: 0px 45px 45px 45px;
+}
+.card-content1>.november1>button{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #3CD8E8;
+    padding: 15px 20px;
+    border-radius: 45px;
+    border: none;
+    margin-bottom: 35px;
+    
+}
+.card-content1>.november1>h5{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.card-content1>.november1>p{
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #666666;
+}
+.card-content-description{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+.card-container .class-btn{
+    justify-content: center;
+    align-items: center;
+}
+
+ #view-all{
+    /* font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    padding: 12px 60px;
+    border: none; */
+    border: 2px solid red;
+    width: 200px;
+    justify-content: center;
+    margin: 10px auto;
+}
+
 /* footer style start */
 
 /* responsive media query */
