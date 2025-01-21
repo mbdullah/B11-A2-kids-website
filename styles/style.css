@@ -229,7 +229,7 @@ nav{
     background: linear-gradient(
         180deg,
         rgb(255, 255, 255) 2.5%,
-        rgba(231, 189, 99, 0.808)100%
+        rgba(253, 221, 152, 0.815)100%
         )     
 }   
 
@@ -334,6 +334,21 @@ nav{
 
 /* footer style start */
 
+.footer-section{
+    border: 2px solid red;
+    background-color: #01ACFD;
+    height: 50vh;
+}
+.footer-container{
+    display: flex;
+    max-width: 1400px;
+    margin: 100px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-content1{
+    max-width: 400px;
+}
 /* responsive media query */
 @media screen and (max-width: 576px) {
     nav, .banner{
