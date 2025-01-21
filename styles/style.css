@@ -224,6 +224,7 @@ nav{
 
 /* our stories section style start */
 .our-stories{   
+    height: 120vh;
     margin-top: 80px;
     background: linear-gradient(
         180deg,
@@ -233,7 +234,6 @@ nav{
 }   
 
 .our-stories-container{
-    height: 1000px;
     background-image: url(../assets/bg.png);
 }
 .our-stories-container .my-stories{
@@ -243,8 +243,10 @@ nav{
 .card-container{
     display: flex;
     max-width: 1400px;
-    margin: 50px auto;
+    margin: 0px auto;
     gap: 20px;
+    margin-top: 60px;
+    margin-bottom: 70px;
     
 }
 .card-content2{
@@ -322,11 +324,12 @@ nav{
     border-radius: 12px;
     padding: 12px 60px;
     border: none;
-    width: 200px;
-    justify-content: center;
-    margin: 0px 870px ;
-    margin-bottom: 80px;
-    
+    display: flex;
+    display: flex;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
 /* footer style start */
@@ -370,6 +373,7 @@ nav{
 
     .standard{
         margin: 20px;
+        height: auto;
     }
     .standard-title{
         width: 100%;
@@ -379,9 +383,31 @@ nav{
     .standard-container{
         grid-template-columns: repeat(1, 1fr);
         margin-top: 5px;
+        height: auto;
     }
 
     .arrow-image-container{
         display: none;
     }
+    .our-stories{
+        height: 100%;
+    }
+    .card-container .card-content1{
+        display: none;
+    }
+    .card-container{
+        margin-bottom: 20px;
+    }
+    .card-content2{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        height: auto;
+        margin: 20px;
+    }
+    .our-stories-container{
+        height: 100%;
+        padding-bottom: 30px;
+   }
+        
+   
 }
