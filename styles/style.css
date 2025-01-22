@@ -265,29 +265,6 @@ nav{
     margin-bottom: 70px;
     
 }
-.card-content2{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
-}
-.card-content2>.card-content-description>img{
-    width: 100%;
-    border-radius: 16px 16px 0px 0px;
-}
-.card-content2>.card-content-description>.november2>button{
-    color: #FFFFFF;
-    font-size: 1rem;
-    font-weight: 500;
-    background-color: #95B226;
-    border-radius: 45px;
-    border: none;
-    padding: 10px 20px;
-    margin-top: -50px;
-    margin-bottom: 22px;
-}
-.card-content2>.card-content-description>.november2{
-    padding: 0px 40px 30px 50px;
-}
 .card-content1{
     background-color: #FFFFFF;
     max-width: 540px;
@@ -313,7 +290,10 @@ nav{
     margin-left: 30px;
     margin-top: -100px;
     margin-bottom: 40px;
-
+}
+#this-is-btn:hover{
+    background-color: #95B226;
+    color: #000000;
 }
 .card-content1>.november1>h5{
     font-size: 1.5rem;
@@ -326,6 +306,34 @@ nav{
     font-weight: 500;
     color: #666666;
 }
+.card-content2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.card-content2>.card-content-description>img{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+.card-content2>.card-content-description>.november2>button{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #95B226;
+    border-radius: 45px;
+    border: none;
+    padding: 10px 20px;
+    margin-top: -50px;
+    margin-bottom: 22px;
+}
+.card-content2>.card-content-description>.november2>button:hover{
+    background-color: #8700FF;
+    color: #000000;
+}
+.card-content2>.card-content-description>.november2{
+    padding: 0px 40px 30px 50px;
+}
+
 .card-content-description{
     background-color: #FFFFFF;
     border-radius: 16px;
