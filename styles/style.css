@@ -47,60 +47,76 @@
     font-weight: 700;
     color: #000000;
 }
+/* shared style closed */
+
 
 /* header style start */
 header > marquee{
     color: rgb(99, 1, 86);
     background-color: rgba(7, 135, 255, 0.11);
 }
+
 .marquee{
     background-color: #01ACFD;
     color: #FFFFFF;
 }
-/* nav style */
+
+/* nav style start*/
+
 nav{
     max-width: 1400px;
     margin: 25px auto;
 }
+
 .nav-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .nav-content{
     display: flex;
     align-items: center;
     gap: 11px;
 }
+
 .nav-content>h4{
     font-size: 2rem;
     font-weight: 700;
     color: black;
 }
+
 .nav-content>ul{
     display: flex;
     gap: 32px;
 }
+
 .nav-content >ul li{
     list-style: none;
 }
+
 .nav-content >ul li  a{
     text-decoration: none;
     font-size: 1.25rem;
     font-weight: 500;
 }
+
 .nav-content >ul li .orange{
     color: orange;
 }
+
 .nav-content >ul li .sky-blue{
     color: skyblue;
 }
+
 .nav-content >ul li .aquea{
     color: #05D4DF;
 }
+
 .nav-content >ul li .light-blue{
     color: #5D58EF;
 }
+
 .nav-btn{
     font-size: 1.25rem;
     font-weight: 600;
@@ -111,44 +127,56 @@ nav{
     border: none;
     cursor: pointer;
 }
+
 .nav-btn:hover{
     background-color: #05D4DF;
     color: #5D58EF;
 }
+
 #assets{
     display: none;
 }
 
-/* banner section style */
+/* nav style closed */
+
+/* banner section style start*/
+
 .banner{
     max-width: 1400px;
     margin: 0 auto;
 }
+
 .banner-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .banner-content > h1{
     font-size: 3.75rem;
     font-weight: 700;
     max-width: 640px;
 }
+
 .empower{
     color: orange;
 }
+
 .students{
     color: black
 }
+
 .vision{
     color: skyblue;
 }
+
 .banner-content > p{
     font-size: 1.25rem;
     max-width: 640px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 .banner-content > button{
     color: white;
     background-color: black;
@@ -159,24 +187,35 @@ nav{
     cursor: pointer;
     border: none;
 }
+
 .banner-content > button:hover{
     background-color: #01ACFD;
     color: #F0AA00;
 }
+
 .banner-content > img{
     width: 600px;
     height: 700px;
 }
+/* banner section style closed */
+
+/* header style closed */
+
+
 /* main style start */
+
+/* standard curriculum style start */
 
 .standard{
     background-image: url(../assets/bg.png);
 }
+
 .standard-title{
     max-width: 490px;
     margin: 0px auto;
     margin-top: 130px;
 }
+
 .standard-container{
     max-width: 1400px;
     margin:50px auto;
@@ -185,6 +224,7 @@ nav{
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
 }
+
 .standard-description1{
     border: 1px solid rgba(213, 241, 255, 0.432);
     background: linear-gradient(
@@ -193,6 +233,7 @@ nav{
         rgb(213, 241, 255)100%
         )
 }
+
 .standard-description2{
     border: 1px solid rgba(243, 236, 199, 0.445);
     background: linear-gradient(
@@ -210,33 +251,40 @@ nav{
         rgb(229, 213, 255)100%
         )
 }
+
 .standard-content>.read-more1{
     color: #64C8FF;
     font-size: 1rem;
     font-weight: 700;
     text-decoration: none;
 }
+
 .standard-content>.read-more2{
     color: #F0AA00;
     font-size: 1rem;
     font-weight: 700;
     text-decoration: none;   
 }
+
 .standard-content>.read-more3{
     color: #8700FF;
     font-size: 1rem;
     font-weight: 700;
     text-decoration: none;   
 }
+
 .arrow-image-container{
     margin-top: 100px;
     text-align: center;
     cursor: pointer;
 }
+
 .arrow-image-container>img{
     width: 80px;
     height: 80px;
 }
+
+/* standard curriculum style closed */
 
 /* our stories section style start */
 .our-stories{   
@@ -252,10 +300,12 @@ nav{
 .our-stories-container{
     background-image: url(../assets/bg.png);
 }
+
 .our-stories-container .my-stories{
     text-align: center;
     justify-content: center;
 }
+
 .card-container{
     display: flex;
     max-width: 1400px;
@@ -263,22 +313,25 @@ nav{
     gap: 20px;
     margin-top: 60px;
     margin-bottom: 70px;
-    
 }
+
 .card-content1{
     background-color: #FFFFFF;
     max-width: 540px;
     border-radius: 16px;
 }
+
 .card-content1>img{
     width: 100%;
     height: 450px;
     background-size: contain;
     border-radius: 16px 16px 0px 0px;
 }
+
 .card-content1 .november1{
     padding: 0px 45px 45px 45px;
 }
+
 #this-is-btn{
     font-size: 1rem;
     font-weight: 500;
@@ -291,30 +344,36 @@ nav{
     margin-top: -100px;
     margin-bottom: 40px;
 }
+
 #this-is-btn:hover{
     background-color: #95B226;
     color: #000000;
 }
+
 .card-content1>.november1>h5{
     font-size: 1.5rem;
     font-weight: 700;
     color: #000000;
     margin-bottom: 50px;
 }
+
 .card-content1>.november1>p{
     font-size: 1.125rem;
     font-weight: 500;
     color: #666666;
 }
+
 .card-content2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
 }
+
 .card-content2>.card-content-description>img{
     width: 100%;
     border-radius: 16px 16px 0px 0px;
 }
+
 .card-content2>.card-content-description>.november2>button{
     color: #FFFFFF;
     font-size: 1rem;
@@ -326,10 +385,12 @@ nav{
     margin-top: -50px;
     margin-bottom: 22px;
 }
+
 .card-content2>.card-content-description>.november2>button:hover{
     background-color: #8700FF;
     color: #000000;
 }
+
 .card-content2>.card-content-description>.november2{
     padding: 0px 40px 30px 50px;
 }
@@ -338,6 +399,7 @@ nav{
     background-color: #FFFFFF;
     border-radius: 16px;
 }
+
 .card-container .class-btn{
     justify-content: center;
     align-items: center;
@@ -359,10 +421,14 @@ nav{
     margin-bottom: 50px;
     cursor: pointer;
 }
+
 #view-all:hover{
     background-color: #FFFFFF;
     color: #F0AA00;
 }
+
+/* our story section style closed */
+
 
 /* footer style start */
 
@@ -371,45 +437,54 @@ nav{
     background-color: #01ACFD;
     height: 50vh;
 }
+
 .footer-container{
     display: flex;
     max-width: 1400px;
     margin: 100px auto;
     justify-content: space-between;
 }
+
 .footer-content1{
     max-width: 400px;
 }
+
 #education{
     display: flex;
     margin-bottom: 35px;
 }
+
 .footer-content1 h3{
     font-size: 2.70rem;
     font-weight: 700;
     color: #FFFFFF;
 }
+
 .footer-content1 p{
     font-size: 1.25rem;
     font-weight: 400;
     color: #FFFFFF;
 }
+
 .footer-content2 h4{
     font-size: 1.25rem;
     font-weight: 700;
     color: #FFFFFF;
     margin-bottom: 35px;
 }
+
 .footer-content3 h4{
     font-size: 1.25rem;
     font-weight: 700;
     color: #FFFFFF;
     margin-bottom: 35px;
 }
+
 .footer-content2 li{
     list-style: none;
     margin-bottom: 25px;
 }
+
 .footer-content2 a{
     text-decoration: none;
     font-size: 1.25rem;
@@ -420,28 +495,35 @@ nav{
 .footer-content3 img{
     margin-right: 20px;
     cursor: pointer;
-
 }
-/* responsive media query */
+
+/* footer style closed */
+
+
+/* responsive media query start*/
 @media screen and (max-width: 576px) {
     nav, .banner{
         margin: 20px;
     }
+
     .nav-btn,
     .nav-content>ul,
     .nav-content>h4{
         display: none;
     }
+
     nav{
         background-image: url(../assets/doted-removebg-preview.png);
         background-repeat: no-repeat;
         background-size: contain;
         background-position-x: right;
     }
+
     #hr-line{
         border: 1px solid gold;
         width: 100%;
     }
+
     .banner-container{
         flex-direction: column-reverse;
     }
@@ -449,11 +531,13 @@ nav{
         text-align: center;
         
     }
+
     .banner-content > p,
     .banner-content > h1
     {
         width: 100%;
     }
+
     .banner-content > img{
         width: 100%;
         height: 100%;
@@ -463,11 +547,13 @@ nav{
         margin: 20px;
         height: auto;
     }
+
     .standard-title{
         width: 100%;
         margin-top: 90px;
         text-align: center;
     }
+
     .standard-container{
         grid-template-columns: repeat(1, 1fr);
         margin-top: 5px;
@@ -477,37 +563,44 @@ nav{
     .arrow-image-container{
         display: none;
     }
+
     .our-stories{
         height: 100%;
     }
+
     .card-container .card-content1{
         display: none;
     }
+
     .card-container{
         margin-bottom: 20px;
     }
+
     .card-content2{
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
         height: auto;
         margin: 20px;
     }
+
     .our-stories-container{
         height: 100%;
         padding-bottom: 30px;
    }
+
     .footer-section{
         height: 100%;
-       
     }
+
    .footer-container{
     flex-direction: column;
     margin: 60px 30px;
    }
+
    .footer-content2{
     margin-top: 35px;
     margin-bottom: 35px;
    }
-        
-   
 }
+
+/* responsive media query closed */
